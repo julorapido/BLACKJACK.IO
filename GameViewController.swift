@@ -17,7 +17,7 @@ class GameViewController: UIViewController {
     
 //    private let bannertop: GADBannerView = {
 //        let banner = GADBannerView()
-//        banner.adUnitID = "ca-app-pub-4889346564502252/7907723689"
+//        banner.adUnitID = "ca-app-pub-***********************"
 //        banner.load(GADRequest())
 //        return banner
 //
