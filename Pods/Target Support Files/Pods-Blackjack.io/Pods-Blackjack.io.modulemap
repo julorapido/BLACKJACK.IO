@@ -1,0 +1,6 @@
+framework module Pods_Blackjack_io {
+  umbrella header "Pods-Blackjack.io-umbrella.h"
+
+  export *
+  module * { export * }
+}

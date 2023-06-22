@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E01B9D72736EBE900AE40D4 /* cardmoov.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E01B9D62736EBE900AE40D4 /* cardmoov.mp3 */; };
+		5E01B9DB2736F22800AE40D4 /* cardflip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5E01B9DA2736F22800AE40D4 /* cardflip.mp3 */; };
+		5E61B5A72729DD7A0073778C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E61B5A62729DD7A0073778C /* GameViewController.swift */; };
+		5E61B5A92729DD910073778C /* TextaW00-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E61B5A82729DD910073778C /* TextaW00-Heavy.ttf */; };
+		5E61B5AB272A157C0073778C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E61B5AA272A157C0073778C /* GameScene.swift */; };
+		5E827A562712E6F50005C9D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827A552712E6F50005C9D0 /* AppDelegate.swift */; };
+		5E827A612712E6F50005C9D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E827A5F2712E6F50005C9D0 /* Main.storyboard */; };
+		5E827A632712E6F60005C9D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E827A622712E6F60005C9D0 /* Assets.xcassets */; };
+		5E827A662712E6F60005C9D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E827A642712E6F60005C9D0 /* LaunchScreen.storyboard */; };
+		5E827A6F2712E7970005C9D0 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E827A6E2712E7970005C9D0 /* MenuScene.swift */; };
+		5E86863C27ABF3340055C44D /* expsound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E86863B27ABF3340055C44D /* expsound.wav */; };
+		5E86863E27ABF41F0055C44D /* unlock.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E86863D27ABF41F0055C44D /* unlock.wav */; };
+		5E86864027ABF5580055C44D /* victory.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E86863F27ABF5580055C44D /* victory.wav */; };
+		5E86864227ABF6B90055C44D /* select.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E86864127ABF6B90055C44D /* select.wav */; };
+		5E86864427ABF82A0055C44D /* lost.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E86864327ABF82A0055C44D /* lost.wav */; };
+		5E86864627AD3F1D0055C44D /* lvlup.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E86864527AD3F1D0055C44D /* lvlup.wav */; };
+		5E86864827AD75EA0055C44D /* goutte.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E86864727AD75EA0055C44D /* goutte.wav */; };
+		5E86864C27AD9B8C0055C44D /* playsound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5E86864B27AD9B8C0055C44D /* playsound.wav */; };
+		5E86865227ADB45D0055C44D /* ElanorFreePersonalUse-ExBdIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5E86865127ADB45D0055C44D /* ElanorFreePersonalUse-ExBdIt.otf */; };
+		5E960527278A12C100019D6C /* LaunchScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E960526278A12C100019D6C /* LaunchScene.swift */; };
+		5ECE246B27A40D7600165095 /* gamecoin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5ECE246A27A40D7600165095 /* gamecoin.wav */; };
+		5ED1BF2C27FCC426007FC8C0 /* trigger.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5ED1BF2B27FCC426007FC8C0 /* trigger.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5E01B9D62736EBE900AE40D4 /* cardmoov.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cardmoov.mp3; sourceTree = SOURCE_ROOT; };
+		5E01B9DA2736F22800AE40D4 /* cardflip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cardflip.mp3; sourceTree = SOURCE_ROOT; };
+		5E61B5A62729DD7A0073778C /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = SOURCE_ROOT; };
+		5E61B5A82729DD910073778C /* TextaW00-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TextaW00-Heavy.ttf"; sourceTree = SOURCE_ROOT; };
+		5E61B5AA272A157C0073778C /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = SOURCE_ROOT; };
+		5E827A522712E6F50005C9D0 /* Blackjack.io.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blackjack.io.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E827A552712E6F50005C9D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E827A602712E6F50005C9D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E827A622712E6F60005C9D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E827A652712E6F60005C9D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E827A6E2712E7970005C9D0 /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		5E86863B27ABF3340055C44D /* expsound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = expsound.wav; sourceTree = "<group>"; };
+		5E86863D27ABF41F0055C44D /* unlock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = unlock.wav; sourceTree = "<group>"; };
+		5E86863F27ABF5580055C44D /* victory.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = victory.wav; sourceTree = "<group>"; };
+		5E86864127ABF6B90055C44D /* select.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = select.wav; sourceTree = "<group>"; };
+		5E86864327ABF82A0055C44D /* lost.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lost.wav; sourceTree = "<group>"; };
+		5E86864527AD3F1D0055C44D /* lvlup.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = lvlup.wav; sourceTree = "<group>"; };
+		5E86864727AD75EA0055C44D /* goutte.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = goutte.wav; sourceTree = "<group>"; };
+		5E86864B27AD9B8C0055C44D /* playsound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = playsound.wav; sourceTree = "<group>"; };
+		5E86865127ADB45D0055C44D /* ElanorFreePersonalUse-ExBdIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ElanorFreePersonalUse-ExBdIt.otf"; sourceTree = SOURCE_ROOT; };
+		5E8C0F95271368AD006278C7 /* Blackjack-io-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Blackjack-io-Info.plist"; sourceTree = SOURCE_ROOT; };
+		5E960526278A12C100019D6C /* LaunchScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScene.swift; sourceTree = "<group>"; };
+		5ECE246A27A40D7600165095 /* gamecoin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gamecoin.wav; sourceTree = "<group>"; };
+		5ED1BF2B27FCC426007FC8C0 /* trigger.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = trigger.wav; sourceTree = "<group>"; };
+		A2F8332C63F7A8663AB069C2 /* Pods-Blackjack.io.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blackjack.io.release.xcconfig"; path = "Target Support Files/Pods-Blackjack.io/Pods-Blackjack.io.release.xcconfig"; sourceTree = "<group>"; };
+		B9E0A50B1A5F0469395DA32C /* Pods-Blackjack.io.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blackjack.io.debug.xcconfig"; path = "Target Support Files/Pods-Blackjack.io/Pods-Blackjack.io.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E827A4F2712E6F50005C9D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A99C8D75C223CE3227E940 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9E0A50B1A5F0469395DA32C /* Pods-Blackjack.io.debug.xcconfig */,
+				A2F8332C63F7A8663AB069C2 /* Pods-Blackjack.io.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5E827A492712E6F50005C9D0 = {
+			isa = PBXGroup;
+			children = (
+				5E827A542712E6F50005C9D0 /* Blackjack.io */,
+				5E827A532712E6F50005C9D0 /* Products */,
+				01A99C8D75C223CE3227E940 /* Pods */,
+				C3550DB53856C01A8D91C2BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E827A532712E6F50005C9D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E827A522712E6F50005C9D0 /* Blackjack.io.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E827A542712E6F50005C9D0 /* Blackjack.io */ = {
+			isa = PBXGroup;
+			children = (
+				5E8FCFCF2714E86F007E3501 /* Assets */,
+				5E8C0F95271368AD006278C7 /* Blackjack-io-Info.plist */,
+				5E61B5A62729DD7A0073778C /* GameViewController.swift */,
+				5E827A552712E6F50005C9D0 /* AppDelegate.swift */,
+				5E827A5F2712E6F50005C9D0 /* Main.storyboard */,
+				5E827A642712E6F60005C9D0 /* LaunchScreen.storyboard */,
+				5E960526278A12C100019D6C /* LaunchScene.swift */,
+				5E827A6E2712E7970005C9D0 /* MenuScene.swift */,
+				5E61B5AA272A157C0073778C /* GameScene.swift */,
+				5E86864527AD3F1D0055C44D /* lvlup.wav */,
+				5E86864B27AD9B8C0055C44D /* playsound.wav */,
+				5ED1BF2B27FCC426007FC8C0 /* trigger.wav */,
+				5E86863F27ABF5580055C44D /* victory.wav */,
+				5E86863D27ABF41F0055C44D /* unlock.wav */,
+				5E86864127ABF6B90055C44D /* select.wav */,
+				5E86863B27ABF3340055C44D /* expsound.wav */,
+				5E86864327ABF82A0055C44D /* lost.wav */,
+				5E86864727AD75EA0055C44D /* goutte.wav */,
+				5ECE246A27A40D7600165095 /* gamecoin.wav */,
+				5E01B9DA2736F22800AE40D4 /* cardflip.mp3 */,
+				5E01B9D62736EBE900AE40D4 /* cardmoov.mp3 */,
+			);
+			path = Blackjack.io;
+			sourceTree = "<group>";
+		};
+		5E8FCFCF2714E86F007E3501 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				5E86865127ADB45D0055C44D /* ElanorFreePersonalUse-ExBdIt.otf */,
+				5E61B5A82729DD910073778C /* TextaW00-Heavy.ttf */,
+				5E827A622712E6F60005C9D0 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C3550DB53856C01A8D91C2BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E827A512712E6F50005C9D0 /* Blackjack.io */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E827A692712E6F60005C9D0 /* Build configuration list for PBXNativeTarget "Blackjack.io" */;
+			buildPhases = (
+				3BF977006E034E615783D690 /* [CP] Check Pods Manifest.lock */,
+				5E827A4E2712E6F50005C9D0 /* Sources */,
+				5E827A4F2712E6F50005C9D0 /* Frameworks */,
+				5E827A502712E6F50005C9D0 /* Resources */,
+				169D52E50B83B6C965ECAE99 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blackjack.io;
+			productName = Blackjack.io;
+			productReference = 5E827A522712E6F50005C9D0 /* Blackjack.io.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E827A4A2712E6F50005C9D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					5E827A512712E6F50005C9D0 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 5E827A4D2712E6F50005C9D0 /* Build configuration list for PBXProject "Blackjack.io" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E827A492712E6F50005C9D0;
+			productRefGroup = 5E827A532712E6F50005C9D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E827A512712E6F50005C9D0 /* Blackjack.io */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E827A502712E6F50005C9D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E86865227ADB45D0055C44D /* ElanorFreePersonalUse-ExBdIt.otf in Resources */,
+				5E86864627AD3F1D0055C44D /* lvlup.wav in Resources */,
+				5E827A612712E6F50005C9D0 /* Main.storyboard in Resources */,
+				5E86864427ABF82A0055C44D /* lost.wav in Resources */,
+				5ED1BF2C27FCC426007FC8C0 /* trigger.wav in Resources */,
+				5E86863C27ABF3340055C44D /* expsound.wav in Resources */,
+				5E86864C27AD9B8C0055C44D /* playsound.wav in Resources */,
+				5E86864027ABF5580055C44D /* victory.wav in Resources */,
+				5E01B9DB2736F22800AE40D4 /* cardflip.mp3 in Resources */,
+				5E61B5A92729DD910073778C /* TextaW00-Heavy.ttf in Resources */,
+				5ECE246B27A40D7600165095 /* gamecoin.wav in Resources */,
+				5E86864827AD75EA0055C44D /* goutte.wav in Resources */,
+				5E86863E27ABF41F0055C44D /* unlock.wav in Resources */,
+				5E827A632712E6F60005C9D0 /* Assets.xcassets in Resources */,
+				5E01B9D72736EBE900AE40D4 /* cardmoov.mp3 in Resources */,
+				5E86864227ABF6B90055C44D /* select.wav in Resources */,
+				5E827A662712E6F60005C9D0 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		169D52E50B83B6C965ECAE99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Blackjack.io/Pods-Blackjack.io-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Blackjack.io/Pods-Blackjack.io-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Blackjack.io/Pods-Blackjack.io-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BF977006E034E615783D690 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Blackjack.io-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E827A4E2712E6F50005C9D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E61B5A72729DD7A0073778C /* GameViewController.swift in Sources */,
+				5E827A6F2712E7970005C9D0 /* MenuScene.swift in Sources */,
+				5E61B5AB272A157C0073778C /* GameScene.swift in Sources */,
+				5E827A562712E6F50005C9D0 /* AppDelegate.swift in Sources */,
+				5E960527278A12C100019D6C /* LaunchScene.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5E827A5F2712E6F50005C9D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E827A602712E6F50005C9D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E827A642712E6F60005C9D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E827A652712E6F60005C9D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E827A672712E6F60005C9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5E827A682712E6F60005C9D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E827A6A2712E6F60005C9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E0A50B1A5F0469395DA32C /* Pods-Blackjack.io.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JL5ZB6G3HN;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=*]" = arm64;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Blackjack-io-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Blackjack.io;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jules.Blackjack-io";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5E827A6B2712E6F60005C9D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2F8332C63F7A8663AB069C2 /* Pods-Blackjack.io.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JL5ZB6G3HN;
+				EXCLUDED_ARCHS = "";
+				GCC_WARN_INHIBIT_ALL_WARNINGS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Blackjack-io-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Blackjack.io;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jules.Blackjack-io";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E827A4D2712E6F50005C9D0 /* Build configuration list for PBXProject "Blackjack.io" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E827A672712E6F60005C9D0 /* Debug */,
+				5E827A682712E6F60005C9D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E827A692712E6F60005C9D0 /* Build configuration list for PBXNativeTarget "Blackjack.io" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E827A6A2712E6F60005C9D0 /* Debug */,
+				5E827A6B2712E6F60005C9D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E827A4A2712E6F50005C9D0 /* Project object */;
+}
